@@ -1,4 +1,7 @@
-function sum(a, b) {
-  return a + b;
+function countDown(n) {
+  for (let i = n; i >= 1; --i) {
+    console.log(i);
+  }
 }
-module.exports = sum;
+
+module.exports = countDown;
